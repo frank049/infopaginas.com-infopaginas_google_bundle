@@ -21,15 +21,8 @@
             "email": "matthewfitz@gmail.com"
         }
     ],
-    "repositories": {
-        "common-product": {
-            "type": "git",
-            "url": "https://git.oxagile.com/infopaginas/google_antimattr_common_product.git"
-        }
-    },
     "require": {
-        "php": ">=5.3.0",
-        "antimattr/common-product": "dev-master"
+        "php": ">=5.3.0"
     },
     "require-dev": {
         "antimattr/test-case": "~1.0@stable",
