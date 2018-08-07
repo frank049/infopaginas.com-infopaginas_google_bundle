@@ -2,16 +2,29 @@
     "name": "antimattr/google-bundle",
     "type": "symfony-bundle",
     "description": "Google Bundle for Symfony2",
-    "keywords": ["adwords", "analytics", "ecommerce", "enhanced ecommerce", "google", "impression", "product", "maps", "symfony"],
+    "keywords": [
+        "adwords",
+        "analytics",
+        "ecommerce",
+        "enhanced ecommerce",
+        "google",
+        "impression",
+        "product",
+        "maps",
+        "symfony"
+    ],
     "homepage": "http://github.com/antimattr/google-bundle",
     "license": "MIT",
     "authors": [
-        {"name": "Matthew Fitzgerald", "email": "matthewfitz@gmail.com"}
+        {
+            "name": "Matthew Fitzgerald",
+            "email": "matthewfitz@gmail.com"
+        }
     ],
     "repositories": {
         "common-product": {
             "type": "git",
-            "url": "https://git.oxagile.com/infopaginas/infopaginas/google_antimattr_common_product.git"
+            "url": "https://git.oxagile.com/infopaginas/google_antimattr_common_product.git"
         }
     },
     "require": {
@@ -31,13 +44,17 @@
         }
     },
     "autoload-dev": {
-        "psr-0": { 
+        "psr-0": {
             "AntiMattr\\TestCase\\": "vendor/antimattr/test-case/src",
             "AntiMattr\\GoogleBundle\\Tests\\": "Tests/"
         }
     },
     "archive": {
-        "exclude": ["bin", "Tests", "*phpunit.xml"]
+        "exclude": [
+            "bin",
+            "Tests",
+            "*phpunit.xml"
+        ]
     },
-    "target-dir" : "AntiMattr/GoogleBundle"
+    "target-dir": "AntiMattr/GoogleBundle"
 }
